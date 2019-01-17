@@ -21,3 +21,24 @@ th {
   background-color: black;
   color: white;
 }
+
+h2 {
+  margin: 15px;
+  background: white;
+}
+
+input {
+  border: 2px solid black;
+  padding: 2px;
+  margin: 5px;
+}
+
+label {
+  color: black;
+}
+
+fieldset {
+  border: 5px solid black;
+  padding: 5px;
+  background: white;
+}

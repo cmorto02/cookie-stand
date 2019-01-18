@@ -45,6 +45,9 @@ function handleNewLocation(event){
   if(!event.target.location.value || !event.target.min.value || !event.target.max.value || !event.target.avg.value){
     return alert('Fields cannot be empty.');
   }
+  if(min > max){
+    return alert('Min must be lower than max.');
+  }
   var name = event.target.location.value;
   var min = event.target.min.value;
   var max = event.target.max.value;

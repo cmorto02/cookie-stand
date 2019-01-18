@@ -1,6 +1,6 @@
 body {
   font-family: 'Questrial';
-  background: grey;
+  background: white;
 }
 h1 {
   margin: 15px;
@@ -38,7 +38,6 @@ label {
 }
 
 fieldset {
-  border: 5px solid black;
   padding: 5px;
   background: white;
 }

@@ -1,0 +1,11 @@
+html {
+  padding: 10px;
+}
+body {
+  background: rgb(118, 169, 185);
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

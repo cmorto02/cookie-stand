@@ -43,8 +43,8 @@ nav li {
 }
 
 main{
-  z-index: 1;
-  box-shadow: 3px 3px 3px rgb(69, 102, 112);
+  z-index: 4;
+  box-shadow: 3px 3px 3px black;
   text-align: center;
   padding: 5px;
   background: rgb(118, 169, 185);
@@ -56,6 +56,10 @@ main img {
   margin-left: auto;
   margin-right: auto;
   border: solid 2px white ;
+}
+
+main li {
+  padding: 10px;
 }
 
 img bottom {
@@ -84,7 +88,6 @@ main button {
 }
 
 footer {
-  box-shadow: inset 0px 3px 0px rgb(69, 102, 112);
   z-index: 2;
   height: 150px;
   padding: 10px;
